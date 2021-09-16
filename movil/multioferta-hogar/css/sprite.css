@@ -1,0 +1,1220 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-10-mdq {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -120px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-Logo_Golden_TV {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -200px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-a24 {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -400px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-ae {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -200px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-amc {
+  background-image: url(../images/sprite.png);
+  background-position: -110px -290px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-america-tv {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-animal-planet {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-antena3 {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-atres-series {
+  background-image: url(../images/sprite.png);
+  background-position: -260px -199px;
+  width: 41px;
+  height: 40px;
+}
+
+.icon-auto-azul-lg {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 102px;
+  height: 66px;
+}
+
+.icon-auto-azul-md {
+  background-image: url(../images/sprite.png);
+  background-position: -124px -199px;
+  width: 68px;
+  height: 44px;
+}
+
+.icon-auto-blanco-sm {
+  background-image: url(../images/sprite.png);
+  background-position: -44px -648px;
+  width: 48px;
+  height: 30px;
+}
+
+.icon-axn {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -320px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-baby-tv {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-bbc-entertaiment {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-boomerang {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-c5n {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-canal-a {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-canal-de-musica {
+  background-image: url(../images/sprite.png);
+  background-position: -420px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-canal10-general {
+  background-image: url(../images/sprite.png);
+  background-position: -480px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-canal9 {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cartoon-network {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cine-ar {
+  background-image: url(../images/sprite.png);
+  background-position: -420px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cinecanal {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -160px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cinemax {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -240px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-clan {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cn23 {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -200px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cnn-espanol {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -240px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cnn-international {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -280px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-comedy-central {
+  background-image: url(../images/sprite.png);
+  background-position: -192px -121px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-cronica {
+  background-image: url(../images/sprite.png);
+  background-position: -50px -290px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-deco-green {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -214px;
+  width: 60px;
+  height: 42px;
+}
+
+.icon-deco-white {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -580px;
+  width: 54px;
+  height: 38px;
+}
+
+.icon-dhe {
+  background-image: url(../images/sprite.png);
+  background-position: -230px -290px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery-kids {
+  background-image: url(../images/sprite.png);
+  background-position: -290px -290px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery-science {
+  background-image: url(../images/sprite.png);
+  background-position: -379px 0px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery-theater {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -40px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery-world {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -80px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -120px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-discovery_turbo {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -160px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-disney-channel {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -200px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-disney-junior {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -240px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-disney-xd {
+  background-image: url(../images/sprite.png);
+  background-position: -379px -280px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-dxtv {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-e {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-el-garage {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-eltrece-alt {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-encuentro {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-espn-plus {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-espn {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -340px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-espn2 {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-espn3 {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-europa {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fibra-300mb-azul {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -66px;
+  width: 63px;
+  height: 63px;
+}
+
+.icon-fibra-azul-mini {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -177px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-fibra-azul {
+  background-image: url(../images/sprite.png);
+  background-position: -252px -57px;
+  width: 54px;
+  height: 56px;
+}
+
+.icon-android-tv {
+  background-image: url(../images/iconos/icon-android.png);
+  background-position-y: 44px;
+  width: 54px;
+  height: 56px;
+}
+
+.icon-modem {
+  background-image: url(../images/iconos/IconoModem.png);
+  width: 57px;
+  height: 57px;
+}
+
+.icon-fibra-verde {
+  background-image: url(../images/sprite.png);
+  background-position: -192px -60px;
+  width: 59px;
+  height: 61px;
+}
+
+.icon-fimarts {
+  background-image: url(../images/sprite.png);
+  background-position: -439px 0px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-food-network {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -40px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-action-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -65px -620px;
+  width: 65px;
+  height: 28px;
+}
+
+.icon-fox-action {
+  background-image: url(../images/sprite.png);
+  background-position: -210px -250px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-cinema-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -258px -580px;
+  width: 67px;
+  height: 25px;
+}
+
+.icon-fox-cinema {
+  background-image: url(../images/sprite.png);
+  background-position: -309px 0px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-classics-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -114px -580px;
+  width: 75px;
+  height: 25px;
+}
+
+.icon-fox-comedy-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -112px -169px;
+  width: 76px;
+  height: 25px;
+}
+
+.icon-fox-comedy {
+  background-image: url(../images/sprite.png);
+  background-position: -70px -250px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-family-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -256px;
+  width: 64px;
+  height: 30px;
+}
+
+.icon-fox-family {
+  background-image: url(../images/sprite.png);
+  background-position: -140px -250px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-hd {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-life {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -420px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-movies-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: -189px -580px;
+  width: 69px;
+  height: 25px;
+}
+
+.icon-fox-movies {
+  background-image: url(../images/sprite.png);
+  background-position: -95px -129px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-premium-classic {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -40px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-series-small-horizontal {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -620px;
+  width: 65px;
+  height: 28px;
+}
+
+.icon-fox-series {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -250px;
+  width: 70px;
+  height: 40px;
+}
+
+.icon-fox-sports-2 {
+  background-image: url(../images/sprite.png);
+  background-position: -499px 0px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-sports-3 {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -40px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-sports-premium {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -80px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fox-sports {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -120px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fx {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -160px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-fxm {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -200px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-gourmet {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -240px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hbo-2-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -311px;
+  width: 39px;
+  height: 16px;
+}
+
+.icon-hbo-family {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -320px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hbo-go-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -520px;
+  width: 48px;
+  height: 15px;
+}
+
+.icon-hbo-od-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -560px;
+  width: 49px;
+  height: 16px;
+}
+
+.icon-hbo-plus-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -237px;
+  width: 31px;
+  height: 27px;
+}
+
+.icon-hbo-plus {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hbo-signature-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -343px;
+  width: 29px;
+  height: 17px;
+}
+
+.icon-hbo-signature {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hbo-small-black {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -327px;
+  width: 32px;
+  height: 16px;
+}
+
+.icon-hbo {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hbo2 {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-herramienta-azul-mini {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -207px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-herramienta-azul {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -290px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-simetria {
+  background-image: url(../images/iconos/icon-simetria.png);
+  background-position: 0px -290px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-simetria-blanco {
+  background-image: url(../images/iconos/icon-simetria-blanco.png);
+  background-position: 0px -290px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-herramienta-verde {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -80px;
+  width: 54px;
+  height: 50px;
+}
+
+.icon-hgtv {
+  background-image: url(../images/sprite.png);
+  background-position: -102px 0px;
+  width: 90px;
+  height: 49px;
+}
+
+.icon-history-2-hd {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -648px;
+  width: 44px;
+  height: 36px;
+}
+
+.icon-history {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-hola-tv {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-home-health {
+  background-image: url(../images/sprite.png);
+  background-position: -300px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-htv {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-icon-transporte-azul-md {
+  background-image: url(../images/sprite.png);
+  background-position: -192px -199px;
+  width: 68px;
+  height: 44px;
+}
+
+.icon-icon-transporte-azul-sm {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -289px;
+  width: 34px;
+  height: 22px;
+}
+
+.icon-id {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -80px;
+  width: 36px;
+  height: 40px;
+}
+
+.icon-isat {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -40px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-la-nacion-plus {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -80px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-las-estrellas {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -120px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-lifetime {
+  background-image: url(../images/sprite.png);
+  background-position: -679px 0px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-magazine {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -40px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-mas-chic {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -280px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-max-este {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -320px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-max-prime {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -360px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-max-up {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -400px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-maxprime {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -440px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-movistar-series {
+  background-image: url(../images/sprite.png);
+  background-position: -559px -480px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-mtv {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-much-music {
+  background-image: url(../images/sprite.png);
+  background-position: -60px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-natgeo-channel {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-natgeo-kids {
+  background-image: url(../images/sprite.png);
+  background-position: -180px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-natgeo-wild {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-netflix-white {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -169px;
+  width: 112px;
+  height: 30px;
+}
+
+.icon-netflix {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-nick-junior {
+  background-image: url(../images/sprite.png);
+  background-position: -420px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-nickelodeon {
+  background-image: url(../images/sprite.png);
+  background-position: -480px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-pakapaka {
+  background-image: url(../images/sprite.png);
+  background-position: -540px -540px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-paramount-channel (1) {
+  background-image: url(../images/sprite.png);
+  background-position: -619px 0px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-paramount-channel {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -40px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-playboy-tv {
+  background-image: url(../images/sprite.png);
+  background-position: -102px -49px;
+  width: 80px;
+  height: 9px;
+}
+
+.icon-quiero-musica {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -120px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-rai {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -160px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-repetidor-white {
+  background-image: url(../images/sprite.png);
+  background-position: -192px 0px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-responsive-green {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -130px;
+  width: 60px;
+  height: 44px;
+}
+
+.icon-responsive-white {
+  background-image: url(../images/sprite.png);
+  background-position: -309px -174px;
+  width: 65px;
+  height: 40px;
+}
+
+.icon-sextreme {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -320px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-sony-hd {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -360px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-space {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -400px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-sundance-channel {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -440px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-syfy {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -480px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tbs {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -520px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tcm {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -580px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-telefe {
+  background-image: url(../images/sprite.png);
+  background-position: -619px -80px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-telefono-azul-mini {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -147px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-telefono-azul {
+  background-image: url(../images/sprite.png);
+  background-position: -252px 0px;
+  width: 57px;
+  height: 57px;
+}
+
+.icon-telefono-verde {
+  background-image: url(../images/sprite.png);
+  background-position: -252px -113px;
+  width: 51px;
+  height: 57px;
+}
+
+.icon-telemundo {
+  background-image: url(../images/sprite.png);
+  background-position: -559px 0px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tl-novelas {
+  background-image: url(../images/sprite.png);
+  background-position: -480px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tlc {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -500px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tn {
+  background-image: url(../images/sprite.png);
+  background-position: -420px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tnt-series {
+  background-image: url(../images/sprite.png);
+  background-position: -240px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tnt-sports {
+  background-image: url(../images/sprite.png);
+  background-position: -120px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tnt {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -460px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tooncast {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -360px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-trece {
+  background-image: url(../images/sprite.png);
+  background-position: -499px -280px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tv-azul-mini {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -120px;
+  width: 35px;
+  height: 27px;
+}
+
+.icon-tv-azul {
+  background-image: url(../images/sprite.png);
+  background-position: -63px -66px;
+  width: 63px;
+  height: 63px;
+}
+
+.icon-tv-interactiva-white {
+  background-image: url(../images/sprite.png);
+  background-position: -126px -66px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-tv-publica {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -360px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tv-verde {
+  background-image: url(../images/sprite.png);
+  background-position: -62px -199px;
+  width: 62px;
+  height: 51px;
+}
+
+.icon-tve {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -240px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-tyc-sports {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -160px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-universal {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -80px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-venus {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -129px;
+  width: 95px;
+  height: 40px;
+}
+
+.icon-volver {
+  background-image: url(../images/sprite.png);
+  background-position: -170px -290px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-warner {
+  background-image: url(../images/sprite.png);
+  background-position: -439px -280px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-wifi-azul-mini {
+  background-image: url(../images/sprite.png);
+  background-position: -679px -264px;
+  width: 30px;
+  height: 25px;
+}
+
+.icon-wifi-azul {
+  background-image: url(../images/sprite.png);
+  background-position: -360px -380px;
+  width: 60px;
+  height: 40px;
+}
+
+.icon-wifi-verde {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -199px;
+  width: 62px;
+  height: 51px;
+}

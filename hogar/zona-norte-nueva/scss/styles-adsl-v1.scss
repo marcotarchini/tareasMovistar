@@ -1,0 +1,5054 @@
+@charset "UTF-8";
+@use '../../../../scss/colores';
+@use '../../../../scss/fonts';
+@use '../../../../scss/general';
+
+@font-face {
+  font-family: TelefonicaCap-Regular;
+  src: url('../fonts/TelefonicaCap-Regular.eot');
+  src: local(TelefonicaCap-Regular),
+    url('../fonts/TelefonicaCap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TelefonicaCap-Regular.ttf') format('truetype'),
+    url('../fonts/TelefonicaCap-Regular.woff') format('woff'),
+    url('../fonts/TelefonicaCap-Regular.svg#TelefonicaCap-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+//pack tele
+
+.mt-custom-plan {
+  margin-top: 76px;
+}
+
+.contenedor-box {
+  display: flex;
+  justify-content: center;
+}
+
+.box-azul {
+  background-color: colores.$azul-oscuro;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 2px 10px;
+}
+
+%box-der {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  display: flex;
+  align-self: center;
+}
+
+.box-rosa {
+  @extend %box-der;
+  background-color: colores.$magenta;
+  padding: 10px 15px;
+}
+
+.box-celeste {
+  @extend %box-der;
+  background-color: colores.$celeste;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .box-celeste,
+  .box-rosa {
+    font-size: 20px;
+    line-height: inherit;
+  }
+
+  .box-azul {
+    padding: 8px 17px;
+  }
+}
+
+//banner fibra mes gratis
+@media (max-width: 768px) {
+  .txt-titulo {
+    font-size: 50px;
+  }
+
+  .cuc-exc-online {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -20px;
+  }
+}
+
+.cuc-exc-online {
+  background-color: colores.$magenta;
+  color: colores.$blanco;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  width: fit-content;
+  font-size: 14px;
+}
+
+//lead mobile
+@media (max-width: 768px) {
+  .mainBanner .formHorizontal .error-disclaimer,
+  .mainBanner .formHorizontal .error.red {
+    width: 100%;
+    top: 68px;
+  }
+
+  .mainBanner .formHorizontal .form-control-center {
+    width: 272px;
+  }
+}
+
+.bonete-celeste {
+  background-color: colores.$celeste;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: colores.$blanco;
+  font-weight: bold;
+}
+
+.contenedor-cuc-fibra {
+  display: flex;
+  font-family: TelefonicaWeb-Regular;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.cuc-desc-fibra {
+  align-items: center;
+  background: transparent;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'TelefonicaCap-Regular';
+  padding-left: 20px;
+  border-left: 1px solid colores.$azul-oscuro;
+}
+
+.cuc-desc-fibra-zona-der {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin-left: 3px;
+}
+
+.cuc-mb-fibra {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  font-size: 32px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'TelefonicaCap-Regular';
+  padding-right: 20px;
+}
+
+.cuc-precio-fibra {
+  align-items: center;
+  border: 3px solid colores.$naranja;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90px;
+  line-height: 1;
+  width: 165px;
+}
+
+.eliminar-border-radius {
+  border-radius: 0 !important;
+}
+
+.h1-custom {
+  color: colores.$azul-oscuro !important;
+  font-size: 55px;
+  margin: 0;
+  line-height: 2px;
+  margin-bottom: 51px;
+}
+
+.h1-guthen {
+  color: colores.$azul-oscuro;
+  font-size: 50px;
+  font-family: 'TelefonicaCap-Regular';
+  text-align: center;
+}
+
+.pt-custom {
+  padding-top: 30px !important;
+}
+
+.txt-bajada-fibra {
+  color: colores.$azul-oscuro;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 30px;
+  margin: -10px 0 10px;
+}
+
+.txt-desc-fibra-high {
+  color: colores.$blanco;
+  font-size: 60px;
+}
+
+.txt-desc-fibra-small {
+  color: colores.$blanco;
+  font-size: 25px;
+}
+
+.txt-mb-fibra {
+  color: colores.$blanco;
+  font-size: 60px;
+}
+
+.txt-mb-fibra-small {
+  font-size: 30px;
+  padding-right: 7px;
+}
+
+@media (max-width: 768px) {
+  .contenedor-cuc-fibra {
+    justify-content: center;
+  }
+
+  .btn-mobile-fibra {
+    border-radius: 35px !important;
+    height: 50px !important;
+    padding: 8px !important;
+    width: 180px !important;
+  }
+
+  .cuc-desc-fibra {
+    font-size: 24px;
+  }
+
+  .cuc-mb-fibra {
+    font-size: 24px;
+  }
+
+  .cuc-precio-fibra {
+    height: 70px;
+    width: 165px;
+  }
+
+  .h1-custom {
+    font-size: 40px;
+    margin-bottom: 28px;
+  }
+
+  .h1-guthen {
+    font-size: 34px;
+  }
+
+  .h1-guthen > img {
+    width: 30px;
+  }
+
+  .h1-guthen::after {
+    content: '\A';
+    white-space: pre;
+  }
+
+  .pt-custom {
+    padding-top: 0 !important;
+  }
+
+  .txt-bajada-fibra {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .txt-desc-fibra-high {
+    font-size: 40px;
+  }
+
+  .txt-desc-fibra-small {
+    font-size: 20px;
+  }
+
+  .txt-mb-fibra {
+    color: colores.$blanco;
+    font-size: 40px;
+  }
+
+  .txt-mb-fibra-small {
+    font-size: 20px;
+  }
+
+  .txt-mobile {
+    font-size: 60px;
+  }
+}
+
+//old styles
+
+body {
+  font-family: TelefonicaWeb-Regular;
+  font-size: 18px;
+  color: #646464;
+  background: #fff;
+  color: #4a4a4a;
+  font-family: TelefonicaWeb-Light;
+  font-size: 18px;
+  padding: 0 !important;
+}
+
+h1 {
+  font-family: TelefonicaWeb-Thin;
+  color: #fff;
+  font-weight: 400;
+  font-size: 62px;
+}
+
+h2 {
+  font-family: TelefonicaWeb-Thin;
+  color: #fff;
+  font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+h3 {
+  font-family: TelefonicaWeb-Bold;
+  color: #1d1d1d;
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+h5 {
+  font-size: 22px;
+  color: #1d1d1d;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid #979797;
+  opacity: 0.6;
+}
+
+.disclaimer {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+a {
+  color: colores.$celeste;
+  transition: color 0.4s;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  -ms-transition: color 0.4s;
+}
+
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  -moz-outline-style: none;
+}
+
+a:hover {
+  color: colores.$celeste;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+}
+
+#wrapper {
+  overflow: hidden;
+  margin-top: 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    margin-top: 0;
+  }
+}
+
+.form-control {
+  padding: 30.5px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #1d1d1d;
+  height: auto;
+  padding: 18px;
+  padding-top: 21px\0;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #1d1d1d;
+}
+
+.form-control:-moz-placeholder {
+  color: #1d1d1d;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: #1d1d1d;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #1d1d1d;
+}
+
+.btn {
+  padding: 19px 43px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  font-family: TelefonicaWeb-Light;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+}
+
+.btn:active,
+.btn:active:focus,
+.btn:focus,
+button:active,
+button:active:focus,
+button:focus {
+  outline: 0;
+}
+
+.btn-default {
+  border: 1px solid #4a4a4a;
+  color: #4a4a4a;
+}
+
+.btn-default:active,
+.btn-default:active:focus,
+.btn-default:focus,
+.btn-default:hover {
+  color: #fff;
+  background-color: colores.$verde;
+}
+
+.btn-primary {
+  background-color: colores.$celeste;
+}
+
+.btn-primary.ancho-liquidaphone {
+  width: 250px;
+}
+
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #9cdbff;
+}
+
+.btn-trans {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-trans:focus,
+.btn-trans:hover {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.js-formCall span.error {
+  color: #e13739;
+  display: block;
+  font-size: 14px;
+  font-family: TelefonicaWeb-Light;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.js-formCall input.error {
+  border: 1px solid #e13739;
+}
+
+.js-formCall span.error-horario {
+  color: #e13739;
+  display: block;
+  font-size: 14px;
+  font-family: TelefonicaWeb-Light;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.js-formCall input.error-horario {
+  border: 1px solid #e13739;
+}
+
+.mainSection .js-formCall span.error,
+.mainSection .js-formCall span.error-horario {
+  color: #fff;
+}
+
+#btnCallMeModalC2C {
+  text-transform: lowercase;
+}
+
+#btnCallMeModalC2C::first-letter {
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px) {
+  .js-formCall .col-sm-12 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visible-xs {
+    display: block !important;
+  }
+
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.text-plan {
+  font-weight: 400;
+}
+
+.text-tachado {
+  text-decoration: line-through;
+}
+
+.littlePrice {
+  font-size: 15px;
+}
+
+@-webkit-keyframes down-up {
+  0% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+  }
+}
+
+@keyframes down-up {
+  0% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+  }
+}
+
+@-webkit-keyframes left-right {
+  0% {
+    right: 0;
+  }
+
+  50% {
+    right: 60%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes left-right {
+  0% {
+    right: 0;
+  }
+
+  50% {
+    right: 60%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes movebackground {
+  0% {
+    background-position: 0;
+  }
+
+  15% {
+    background-position: 100px;
+  }
+
+  25% {
+    background-position: 200px;
+  }
+
+  40% {
+    background-position: 300px;
+  }
+
+  50% {
+    background-position: 400px;
+  }
+
+  65% {
+    background-position: 500px;
+  }
+
+  75% {
+    background-position: 600px;
+  }
+
+  85% {
+    background-position: 700px;
+  }
+
+  100% {
+    background-position: 800px;
+  }
+}
+
+@keyframes movebackground {
+  0% {
+    background-position: 0;
+  }
+
+  15% {
+    background-position: 100px;
+  }
+
+  25% {
+    background-position: 200px;
+  }
+
+  40% {
+    background-position: 300px;
+  }
+
+  50% {
+    background-position: 400px;
+  }
+
+  65% {
+    background-position: 500px;
+  }
+
+  75% {
+    background-position: 600px;
+  }
+
+  85% {
+    background-position: 700px;
+  }
+
+  100% {
+    background-position: 800px;
+  }
+}
+
+.slick-loading .slick-list {
+  background: #fff url(../images/global/ajax-loader.gif) center center no-repeat;
+}
+
+@font-face {
+  font-family: slick;
+  src: url(../fonts/slick.eot);
+  src: url(../fonts/slick.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/slick.woff) format('woff'), url(../fonts/slick.ttf) format('truetype'),
+    url(../fonts/slick.svg#slick) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slick-next,
+.slick-prev {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  background: 0 0;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: 0;
+}
+
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  outline: 0;
+  background: 0 0;
+  color: transparent;
+}
+
+.slick-next:focus:before,
+.slick-next:hover:before,
+.slick-prev:focus:before,
+.slick-prev:hover:before {
+  opacity: 1;
+}
+
+.slick-next.slick-disabled:before,
+.slick-prev.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: slick;
+  font-size: 20px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+  left: auto;
+  right: -25px;
+}
+
+.slick-prev:before {
+  content: '←';
+}
+
+[dir='rtl'] .slick-prev:before {
+  content: '→';
+}
+
+.slick-next {
+  right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+  left: -25px;
+  right: auto;
+}
+
+.slick-next:before {
+  content: '→';
+}
+
+[dir='rtl'] .slick-next:before {
+  content: '←';
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  border: 0;
+  background: 0 0;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: 0;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.slick-dots li button:focus,
+.slick-dots li button:hover {
+  outline: 0;
+}
+
+.slick-dots li button:focus:before,
+.slick-dots li button:hover:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '•';
+  width: 20px;
+  height: 20px;
+  font-family: slick;
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+  opacity: 0.75;
+}
+
+.newswrapper_next.slick-arrow {
+  right: 85px;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.newswrapper_next.slick-arrow.slick-disabled {
+  opacity: 0.35;
+}
+
+.newswrapper_prev.slick-arrow {
+  left: 65px;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  opacity: 1;
+}
+
+.newswrapper_prev.slick-arrow.slick-disabled {
+  opacity: 0.35;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.slick-dots li button {
+  border: 0;
+  background: 0 0;
+  display: block;
+  height: 20px;
+  width: 75px;
+  outline: 0;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.slick-dots li button:focus,
+.slick-dots li button:hover {
+  outline: 0;
+}
+
+.slick-dots li button:focus:before,
+.slick-dots li button:hover:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '•';
+  width: 20px;
+  height: 20px;
+  font-family: slick;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+  opacity: 0.75;
+}
+
+@media (max-width: 768px) {
+  .newswrapper_next.slick-arrow {
+    right: 10px;
+  }
+
+  .newswrapper_prev.slick-arrow {
+    left: 10px;
+  }
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+
+.slick-list {
+  position: relative;
+  overflow: visible;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: 0;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+.slick-track:after,
+.slick-track:before {
+  content: '';
+  display: table;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  opacity: 1;
+  outline: 0;
+  display: none;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.slick-arrow {
+  width: 30px;
+}
+
+.btn-default-style {
+  padding: 19px 43px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  font-family: TelefonicaWeb-Light;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+  width: 100%;
+  border: 1px solid #4a4a4a;
+  color: #4a4a4a;
+  background-color: #fff;
+}
+
+.btn-default-style:focus {
+  outline: 0;
+}
+
+.btn-default-style:active {
+  outline: 0;
+}
+
+.btn-default-style:active:focus {
+  outline: 0;
+}
+
+.btn-default-style.btn-green-bg {
+  border: 1px solid colores.$verde;
+  color: #fff;
+  background-color: colores.$verde;
+}
+
+.btn-default-style.btn-blue-bg {
+  border: 1px solid colores.$celeste;
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-blue-bg:focus {
+  outline: 0;
+}
+
+.btn-default-style.btn-blue-bg:active {
+  outline: 0;
+}
+
+.btn-default-style.btn-blue-bg:active:focus {
+  outline: 0;
+}
+
+.btn-default-style.btn-blue-bg:hover {
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.o-patternSection__title {
+  color: #000;
+}
+
+.flip-clock-wrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-clock-wrapper a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ccc;
+  display: inline-block;
+}
+
+.flip-clock-wrapper a:hover {
+  color: #fff;
+}
+
+.flip-clock-wrapper ul {
+  list-style: none;
+}
+
+.flip-clock-wrapper.clearfix:after,
+.flip-clock-wrapper.clearfix:before {
+  content: ' ';
+  display: table;
+}
+
+.flip-clock-wrapper.clearfix:after {
+  clear: both;
+}
+
+.flip-clock-wrapper.clearfix {
+  *zoom: 1;
+}
+
+.flip-clock-wrapper {
+  font: normal 11px 'Helvetica Neue', Helvetica, sans-serif;
+  -webkit-user-select: none;
+}
+
+.flip-clock-meridium {
+  background: 0 0 !important;
+  box-shadow: 0 0 0 !important;
+  font-size: 36px !important;
+}
+
+.flip-clock-meridium a {
+  color: #313333;
+}
+
+.flip-clock-wrapper {
+  text-align: center;
+  position: relative;
+  width: auto;
+  margin: 1em;
+  display: inline-block;
+}
+
+.flip-clock-wrapper:after,
+.flip-clock-wrapper:before {
+  content: ' ';
+  display: table;
+}
+
+.flip-clock-wrapper:after {
+  clear: both;
+}
+
+.flip-clock-wrapper ul {
+  position: relative;
+  float: left;
+  margin: 5px;
+  width: 40px;
+  height: 90px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 87px;
+  border-radius: 6px;
+  background: #000;
+}
+
+.flip-clock-wrapper ul li {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 87px;
+  text-decoration: none !important;
+}
+
+.flip-clock-wrapper ul li:first-child {
+  z-index: 2;
+}
+
+.flip-clock-wrapper ul li a {
+  display: block;
+  height: 100%;
+  -webkit-perspective: 200px;
+  -moz-perspective: 200px;
+  perspective: 200px;
+  margin: 0 !important;
+  overflow: visible !important;
+  cursor: default !important;
+}
+
+.flip-clock-wrapper ul li a div {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  font-size: 80px;
+  overflow: hidden;
+  outline: 1px solid transparent;
+}
+
+.flip-clock-wrapper ul li a div .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.flip-clock-wrapper ul li a div.up {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  top: 0;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  content: '';
+  position: absolute;
+  top: 44px;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flip-clock-wrapper ul li a div.down {
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  bottom: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 200%;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+  text-align: center;
+  background-color: colores.$celeste;
+  border-radius: 6px;
+  font-size: 70px;
+}
+
+.flip-clock-wrapper ul li a div.up div.inn {
+  top: 0;
+}
+
+.flip-clock-wrapper ul li a div.down div.inn {
+  bottom: 0;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-before {
+  z-index: 3;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-active {
+  -webkit-animation: asd 0.5s 0.5s linear both;
+  -moz-animation: asd 0.5s 0.5s linear both;
+  animation: asd 0.5s 0.5s linear both;
+  z-index: 5;
+}
+
+.flip-clock-divider {
+  float: left;
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 100px;
+}
+
+.flip-clock-divider:first-child {
+  width: 0;
+}
+
+.flip-clock-dot {
+  display: block;
+  background: #323434;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  left: 5px;
+}
+
+.flip-clock-divider .flip-clock-label {
+  position: absolute;
+  top: -1.5em;
+  right: -86px;
+  color: #000;
+  text-shadow: none;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -88px;
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+  right: -91px;
+}
+
+.flip-clock-dot.top {
+  top: 30px;
+}
+
+.flip-clock-dot.bottom {
+  bottom: 30px;
+}
+
+@-webkit-keyframes asd {
+  0% {
+    z-index: 2;
+  }
+
+  20% {
+    z-index: 4;
+  }
+
+  100% {
+    z-index: 4;
+  }
+}
+
+@-moz-keyframes asd {
+  0% {
+    z-index: 2;
+  }
+
+  20% {
+    z-index: 4;
+  }
+
+  100% {
+    z-index: 4;
+  }
+}
+
+@-o-keyframes asd {
+  0% {
+    z-index: 2;
+  }
+
+  20% {
+    z-index: 4;
+  }
+
+  100% {
+    z-index: 4;
+  }
+}
+
+@keyframes asd {
+  0% {
+    z-index: 2;
+  }
+
+  20% {
+    z-index: 4;
+  }
+
+  100% {
+    z-index: 4;
+  }
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-active .down {
+  z-index: 2;
+  -webkit-animation: turn 0.5s 0.5s linear both;
+  -moz-animation: turn 0.5s 0.5s linear both;
+  animation: turn 0.5s 0.5s linear both;
+}
+
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotateX(90deg);
+  }
+
+  100% {
+    -webkit-transform: rotateX(0);
+  }
+}
+
+@-moz-keyframes turn {
+  0% {
+    -moz-transform: rotateX(90deg);
+  }
+
+  100% {
+    -moz-transform: rotateX(0);
+  }
+}
+
+@-o-keyframes turn {
+  0% {
+    -o-transform: rotateX(90deg);
+  }
+
+  100% {
+    -o-transform: rotateX(0);
+  }
+}
+
+@keyframes turn {
+  0% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-before .up {
+  z-index: 2;
+  -webkit-animation: turn2 0.5s linear both;
+  -moz-animation: turn2 0.5s linear both;
+  animation: turn2 0.5s linear both;
+}
+
+@-webkit-keyframes turn2 {
+  0% {
+    -webkit-transform: rotateX(0);
+  }
+
+  100% {
+    -webkit-transform: rotateX(-90deg);
+  }
+}
+
+@-moz-keyframes turn2 {
+  0% {
+    -moz-transform: rotateX(0);
+  }
+
+  100% {
+    -moz-transform: rotateX(-90deg);
+  }
+}
+
+@-o-keyframes turn2 {
+  0% {
+    -o-transform: rotateX(0);
+  }
+
+  100% {
+    -o-transform: rotateX(-90deg);
+  }
+}
+
+@keyframes turn2 {
+  0% {
+    transform: rotateX(0);
+  }
+
+  100% {
+    transform: rotateX(-90deg);
+  }
+}
+
+.flip-clock-wrapper ul li.flip-clock-active {
+  z-index: 3;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-before .up .shadow {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(0, 0, 0, 0.1)),
+    color-stop(100%, #000)
+  );
+  background: linear, top, rgba(0, 0, 0, 0.1) 0, #000 100%;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: linear, to bottom, rgba(0, 0, 0, 0.1) 0, #000 100%;
+  -webkit-animation: show 0.5s linear both;
+  -moz-animation: show 0.5s linear both;
+  animation: show 0.5s linear both;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-active .up .shadow {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(0, 0, 0, 0.1)),
+    color-stop(100%, #000)
+  );
+  background: linear, top, rgba(0, 0, 0, 0.1) 0, #000 100%;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, #000 100%);
+  background: linear, to bottom, rgba(0, 0, 0, 0.1) 0, #000 100%;
+  -webkit-animation: hide 0.5s 0.3s linear both;
+  -moz-animation: hide 0.5s 0.3s linear both;
+  animation: hide 0.5s 0.3s linear both;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-before .down .shadow {
+  background: -moz-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #000),
+    color-stop(100%, rgba(0, 0, 0, 0.1))
+  );
+  background: linear, top, #000 0, rgba(0, 0, 0, 0.1) 100%;
+  background: -o-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: -ms-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: linear, to bottom, #000 0, rgba(0, 0, 0, 0.1) 100%;
+  -webkit-animation: show 0.5s linear both;
+  -moz-animation: show 0.5s linear both;
+  animation: show 0.5s linear both;
+}
+
+.flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
+  background: -moz-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #000),
+    color-stop(100%, rgba(0, 0, 0, 0.1))
+  );
+  background: linear, top, #000 0, rgba(0, 0, 0, 0.1) 100%;
+  background: -o-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: -ms-linear-gradient(top, #000 0, rgba(0, 0, 0, 0.1) 100%);
+  background: linear, to bottom, #000 0, rgba(0, 0, 0, 0.1) 100%;
+  -webkit-animation: hide 0.5s 0.3s linear both;
+  -moz-animation: hide 0.5s 0.3s linear both;
+  animation: hide 0.5s 0.2s linear both;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.h1,
+h1 {
+  font-family: TelefonicaWeb-Regular;
+}
+
+.h2,
+h2 {
+  font-size: 30px;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.h3,
+h3 {
+  font-family: TelefonicaWeb-Regular;
+}
+
+.llamenme-llamanos .llamenme img {
+  padding-right: 10px;
+}
+
+.llamenme-llamanos .llamanos {
+  color: #fff;
+  background-color: colores.$verde;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.llamenme-llamanos .llamanos img {
+  padding-right: 10px;
+}
+
+.botonera-mobile {
+  width: 100%;
+  height: 86px;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .botonera-mobile {
+    display: block !important;
+  }
+}
+
+.botonera-mobile .position {
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 0 8px 0 rgba(114, 114, 114, 0.22);
+  -webkit-box-shadow: 0 0 8px 0 rgba(114, 114, 114, 0.22);
+  -moz-box-shadow: 0 0 8px 0 rgba(114, 114, 114, 0.22);
+  padding: 10px 0 10px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.botonera-mobile .no_p {
+  padding: 0;
+}
+
+.botonera-mobile .botonera-mobile-wrapper {
+  width: 100%;
+  height: 86px;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .botonera-mobile-row {
+  width: 100%;
+  height: 86px;
+  margin: 0 0;
+  padding: 10px 10px;
+  z-index: 205;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .button-wrapper {
+  padding: 0 10px;
+  margin: 0 0;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .button-wrapper .btn-success {
+  height: 66px;
+  min-width: 100%;
+  padding: 20px 0;
+  margin: 0 0;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .button-wrapper .btn-primary {
+  height: 66px;
+  min-width: 100%;
+  padding: 20px 0;
+  margin: 0 0;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .button-center-nocturno {
+  width: 100%;
+}
+
+.botonera-mobile .botonera-mobile-wrapper .button-chat-nocturno {
+  width: 30%;
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .botonera-mobile .botonera-mobile-wrapper .botonera-mobile-row {
+    display: none;
+  }
+}
+
+.whatsapp-btn {
+  display: none !important;
+  padding-right: 0;
+  padding-left: 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.whatsapp-btn .btn {
+  padding-right: 0;
+  padding-left: 57px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  background-image: url(../images/iconos/WHATSAPP_LOGO.png);
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position-x: -1px;
+  background-position-y: 7px;
+  color: #000;
+  height: 65px;
+}
+
+@media only screen and (max-width: 320px) {
+  .whatsapp-btn .btn {
+    padding-left: 37px;
+    background-size: 40px;
+  }
+}
+
+.btn-default-style {
+  padding: 19px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  font-family: TelefonicaWeb-Regular;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+  width: 100%;
+  border: 1px solid #4a4a4a;
+  color: #4a4a4a;
+  background-color: #fff;
+}
+
+.btn-default-style:focus {
+  outline: 0;
+}
+
+.btn-default-style:active {
+  outline: 0;
+}
+
+.btn-default-style:active:focus {
+  outline: 0;
+}
+
+.btn-default-style:hover {
+  border: 1px solid colores.$verde;
+  color: #fff;
+  background-color: colores.$verde;
+}
+
+.btn-default-style:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+}
+
+.btn-default-style.btn-blue-bg {
+  border: 1px solid colores.$celeste;
+  color: #fff;
+  background-color: colores.$celeste;
+  padding: 18px;
+}
+
+.btn-default-style.btn-blue-bg:focus {
+  outline: 0;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-blue-bg:active {
+  outline: 0;
+}
+
+.btn-default-style.btn-blue-bg:active:focus {
+  outline: 0;
+}
+
+.btn-default-style.btn-blue-bg:hover {
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-blue-bg.blue-btn-higlighted {
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-blue-bg.blue-btn {
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-default-blue,
+.btn-default-style.btn-default-duos-trios {
+  border: 1px solid colores.$celeste;
+  color: #fff;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-default-blue:focus,
+.btn-default-style.btn-default-duos-trios:focus {
+  outline: 0;
+  background-color: colores.$celeste;
+}
+
+.btn-default-style.btn-default-blue:active,
+.btn-default-style.btn-default-duos-trios:active {
+  outline: 0;
+}
+
+.btn-default-style.btn-default-blue:active:focus,
+.btn-default-style.btn-default-duos-trios:active:focus {
+  outline: 0;
+}
+
+.btn-default-style.btn-default-blue:hover,
+.btn-default-style.btn-default-duos-trios:hover {
+  color: #fff;
+  background-color: #9cdbff;
+}
+
+@keyframes changeSize {
+  0% {
+    width: 90px;
+    height: 90px;
+  }
+
+  50% {
+    width: 100px;
+    height: 100px;
+  }
+
+  100% {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@keyframes changeSizeText {
+  0% {
+    font-size: 12px;
+  }
+
+  50% {
+    font-size: 14px;
+  }
+
+  100% {
+    font-size: 12px;
+  }
+}
+
+.modal-phone .modal-content .modal-container {
+  padding: 0;
+}
+
+.modal-phone .modal-content .modal-image {
+  display: block;
+}
+
+@media only screen and (max-width: 1199px) {
+  .modal-phone .modal-content .modal-image {
+    display: none;
+  }
+}
+
+.modal-phone .modal-content .modal-image img {
+  width: 282px;
+  position: relative;
+  right: 50px;
+}
+
+.modal-phone .modal-dialog {
+  width: 800px;
+}
+
+@media only screen and (max-width: 991px) {
+  .modal-phone .modal-dialog {
+    width: auto;
+  }
+}
+
+.modal-phone .modal-title {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 36px;
+  color: #50535a;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.modal-content {
+  border-radius: 0;
+  text-align: center;
+}
+
+.modal-content h2 {
+  color: #1d1d1d;
+  font-family: TelefonicaWeb-Thin;
+  font-size: 42px;
+}
+
+.modal-content h2#informationModal_subTitle {
+  font-size: 32px;
+}
+
+.modal-content h5 {
+  color: #4a4a4a;
+  text-transform: none;
+}
+
+.modal-content p {
+  font-size: 14px;
+  color: #50535a;
+}
+
+.modal-content p.modal-text {
+  font-size: 18px;
+}
+
+.modal-content p.modal-text strong {
+  font-family: TelefonicaWeb-Bold;
+}
+
+.modal-content p a {
+  color: #50535a;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.modal-content p a:focus,
+.modal-content p a:hover {
+  color: #50535a;
+}
+
+.modal-content .modal-container {
+  padding: 75px 25px 0;
+}
+
+.modal-content .modal-container h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  color: #1d1d1d;
+}
+
+.modal-content .modal-container h3.titlemovistar__play {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.modal-content .modal-container .movistar__play {
+  width: 90px;
+  display: inline;
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+
+.modal-content .modal-container .__movistarPlay {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.modal-content .modal-container .popup-titulo {
+  font-family: TelefonicaWeb-Light;
+  font-size: 26px;
+  text-align: center;
+}
+
+.modal-content .modal-container .popup-opcion {
+  font-family: TelefonicaWeb-Light;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-top: 7px solid colores.$verde;
+  cursor: pointer;
+}
+
+.modal-content .modal-container .popup-opcion img {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.modal-content .modal-container .popup-opcion p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-content .modal-container .steps {
+  text-align: center;
+  margin-top: 20px;
+  background: #fff;
+  padding: 0;
+}
+
+.modal-content .modal-container .steps li {
+  display: inline-block;
+  font-size: 17px;
+  width: 25px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.modal-content .modal-container .steps li.active {
+  background: colores.$celeste;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.modal-content .modal-container .steps li.active-left {
+  background: colores.$celeste;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #fff;
+}
+
+.modal-content .modal-container .steps li.active-right {
+  background: colores.$celeste;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+}
+
+.modal-content .modal-container .steps li.active-center {
+  background: colores.$celeste;
+  color: #fff;
+}
+
+.modal-content .modal-container .form-steps {
+  padding-bottom: 30px;
+}
+
+.modal-content .modal-container .form-steps label {
+  font-size: 12px;
+  font-family: TelefonicaWeb-Bold;
+  margin: 0;
+}
+
+.modal-content .modal-container .form-steps .img-error {
+  display: inline-block;
+  width: 150px;
+}
+
+.modal-content .modal-container .form-steps .form-label {
+  font-family: TelefonicaWeb-Light;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-content .modal-container .form-steps .form-plan {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-content .modal-container .form-steps .form-precio {
+  font-family: TelefonicaWeb-Light;
+  color: colores.$verde;
+}
+
+.modal-content .modal-container .form-steps .linea {
+  border-bottom: 1px solid #86888c;
+  margin-top: 10px;
+}
+
+.modal-content .modal-container .form-steps .ver-tyc {
+  font-family: TelefonicaWeb-Light;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-content .modal-container .form-steps .tyc {
+  max-height: 150px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  overflow-x: hidden;
+}
+
+.modal-content .modal-container .form-steps .aceptar-tyc {
+  font-family: TelefonicaWeb-Light;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.modal-content .modal-container .form-steps .aceptar-tyc input {
+  display: inline-block;
+  width: 15px;
+  margin: 0;
+}
+
+.modal-content .modal-container .form-steps input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: colores.$celeste 1px solid;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 90%;
+  margin-top: 30px;
+  font-family: TelefonicaWeb-Light;
+}
+
+.modal-content .modal-container .form-steps .input-label {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #86888c;
+}
+
+.modal-content .modal-container .form-steps .cancelar {
+  color: colores.$celeste;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.modal-content .modal-container .form-steps .reenviar {
+  display: inline-block;
+  font-size: 14px;
+  color: colores.$celeste;
+  margin-top: 15px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.modal-content .modal-container .form-steps .btn {
+  font-size: 24px;
+  line-height: 26px;
+  padding: 14px 43px 20px;
+  background-color: colores.$verde;
+  border: none;
+  font-weight: 400 !important;
+}
+
+.modal-content .modal-container .form-steps .btn.btn-table {
+  padding: 5px 38px;
+  color: #fff;
+  font-family: TelefonicaWeb-Light;
+  font-size: 14px;
+}
+
+.modal-content .close {
+  width: 25px;
+  margin-right: 35px;
+  margin-top: 35px;
+  opacity: 0.8;
+  transition: transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  -ms-transition: -ms-transform 0.4s;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-device-width: 1280px) and (orientation: landscape) {
+  .modal-content .close {
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+}
+
+.modal-content .close:hover {
+  opacity: 1;
+  transform: scale(1.19);
+  -webkit-transform: scale(1.19);
+  -moz-transform: scale(1.19);
+  -o-transform: scale(1.19);
+  -ms-transform: scale(1.19);
+}
+
+.modal-content .modal-header {
+  border-bottom: none;
+}
+
+.modal-content .modal-header .modal-title {
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 26px;
+  font-family: TelefonicaWeb-Thin;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-content .modal-header .modal-title {
+    font-size: 22px;
+  }
+}
+
+.modal-content .modal-header .close {
+  margin-top: 0;
+}
+
+.modal-content .formulario {
+  padding: 0 30px;
+}
+
+.modal-content .formulario .modal-phone {
+  pointer-events: none;
+  text-decoration: none;
+  color: #4a4a4a !important;
+}
+
+.modal-content .formulario .modal-phone a {
+  color: #4a4a4a !important;
+}
+
+#modalLoading h2 {
+  font-size: 28px;
+  color: colores.$celeste;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.modal-title {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 36px;
+  color: #50535a;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.modal-inputs {
+  text-align: center;
+  padding: 15px 15px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-body {
+  margin: 0 5% 5% 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-body {
+    margin: 0;
+  }
+}
+
+.ok {
+  text-align: center;
+  display: none;
+}
+
+.ok h3 {
+  font-size: 30px;
+  color: colores.$verde;
+}
+
+.ok h4 {
+  font-size: 30px;
+  color: colores.$verde;
+}
+
+.modal-content .form-group {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.modal-content .form-group .form-control {
+  text-align: center;
+}
+
+.modal-content .form-group.formHorizontal .error {
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.modal-content .form-group.formHorizontal .error.red {
+  color: #e13739;
+}
+
+.modal-content .form-group.formHorizontal .error-horario {
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.modal-content .form-group.formHorizontal .error-horario.red {
+  color: #e13739;
+}
+
+.modal-content .form-group.formHorizontal .error-disclaimer {
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.modal-content .form-group.formHorizontal .error-disclaimer.red {
+  color: #e13739;
+}
+
+.modal-content .form-group button {
+  margin-bottom: 20px;
+}
+
+.modal-content .llamanos:active,
+.modal-content .llamanos:focus,
+.modal-content .llamanos:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.modal-content .llamanos {
+  font-family: TelefonicaWeb-Bold;
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-content .llamanos {
+    font-size: 24px;
+  }
+}
+
+.oContactate {
+  text-align: center;
+  clear: both;
+  position: relative;
+  top: 0;
+}
+
+.oContactate p {
+  font-size: 20px;
+  color: #50535a;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.oContactate hr {
+  border: 0.5px solid #86888c;
+  width: 40%;
+}
+
+.llamanos {
+  color: #fff;
+  background-color: colores.$verde;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.quick-links-list {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quick-links-list .quick-links-col {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+
+.quick-link.btn-default-style {
+  border: 0;
+}
+
+.quick-link.btn-default-style:focus,
+.quick-link.btn-default-style:hover {
+  background: #fff;
+  border: 0;
+}
+
+.quick-link {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 20px 0;
+  font-size: 18px;
+  color: #50535a;
+  letter-spacing: 0;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.quick-link:before {
+  background-color: #ade27f;
+  opacity: 1;
+  content: '';
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+}
+
+.quick-link:active,
+.quick-link:focus,
+.quick-link:hover {
+  color: #50535a;
+  background: #fff;
+}
+
+.quick-link img {
+  margin-top: 10px;
+  height: 40px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.quick-link .quick-link__text {
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 400;
+  font-size: 17px;
+  color: #50535a;
+  letter-spacing: 0.03px;
+  line-height: 24px;
+}
+
+#modalCambiaPlan,
+#modalNueva,
+#modalPasate {
+  display: none;
+}
+
+.modalNocturno__container {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.modalNocturno__container .modalNocturno__item {
+  display: table-cell;
+}
+
+.modalNocturno__container .modalNocturno__item:first-child {
+  padding-right: 5px;
+}
+
+.modalNocturno__container .modalNocturno__item:last-child {
+  padding-left: 5px;
+}
+
+.modalNocturno__container .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+.modalNocturno__container .dropdown-menu {
+  margin-top: -1px;
+}
+
+.modalNocturno__container .modalNocturno__item .form-control {
+  background-color: #fff;
+}
+
+.modalNocturno__container .modalNocturno__item .form-control:focus {
+  border: 1px solid colores.$verde;
+  background: #fff;
+}
+
+.modalNocturno__container .modalNocturno__itemList .form-control {
+  background-color: #fff;
+  text-align: center;
+}
+
+.modalNocturno__container .modalNocturno__itemList .form-control:focus {
+  border: 1px solid colores.$verde;
+  background: #fff;
+}
+
+.modalNocturno__container .modalNocturno__itemList:first-child {
+  margin-bottom: 10px;
+}
+
+.modalWrapper .js-agendamiento-nocturno {
+  display: none;
+}
+
+.modalWrapper.modalWrapperNocturno .js-agendamiento-nocturno {
+  display: block;
+}
+
+.modalWrapperNocturno .modal-dialog {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.modalWrapperNocturno .formularioNocturno {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.modalWrapperNocturno .modalWrapperNocturno__maintitle {
+  color: #50535a;
+  font-size: 34px;
+  font-family: TelefonicaWeb-Bold;
+}
+
+.modalWrapperNocturno h5.title {
+  color: colores.$verde;
+  font-family: TelefonicaWeb-Regular;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.modalWrapperNocturno .modalNocturno__containerFormItem {
+  display: inline-block;
+  width: 200px;
+}
+
+.modalWrapperNocturno input[type='radio'] {
+  display: none;
+}
+
+.modalWrapperNocturno .rangoHorario + label:before {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: 5px;
+  left: -5px;
+  position: relative;
+  background-color: #fff;
+  content: '';
+  display: inline-block;
+  visibility: visble;
+  border: 2px solid colores.$verde;
+  vertical-align: text-top;
+}
+
+.modalWrapperNocturno .rangoHorario:checked + label:before {
+  border: 5px solid colores.$verde;
+  color: #fff;
+  background-clip: content-box;
+}
+
+.modalWrapperNocturno .modalNocturno__textExplain {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#formCallMeModalNocturno {
+  padding: 0 50px;
+}
+
+.greenModalButton {
+  background: colores.$verde;
+  border-radius: 11px;
+  font: bold 13px Arial;
+  color: #fff;
+  padding: 0 7px 3px;
+  top: -6px;
+  position: relative;
+  border-style: hidden;
+  float: right;
+}
+
+.greenModalButton.blueModalButton {
+  background: colores.$celeste;
+}
+
+.noneFLoating {
+  float: none;
+  left: 5px;
+}
+.terminos-condiciones {
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+}
+
+.terminos-condiciones .legales__title {
+  font-size: 56px;
+  text-align: left;
+  font-weight: 300;
+  color: #50535a;
+  padding: 30px 0;
+  display: block;
+}
+
+.terminos-condiciones.bkGray {
+  background-color: #e9eae8;
+}
+
+.terminos-condiciones.lightgray {
+  background-color: #d3d3d3;
+}
+
+.terminos-condiciones .terminos__content {
+  display: table;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
+
+.terminos-condiciones .terminos__content b,
+.terminos-condiciones .terminos__content strong {
+  font-family: TelefonicaWeb-Bold;
+}
+
+.terminos-condiciones .terminos__title {
+  color: #646464;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: telefonicaWeb-thin;
+  padding: 0;
+  text-align: center;
+}
+
+.terminos-condiciones .terminos__extendedContent {
+  display: none;
+}
+
+.terminos-condiciones .moreButton {
+  background: 0 0;
+  margin-top: 15px;
+  border: none;
+}
+
+.terminos-condiciones .lessButton {
+  display: none;
+  border: none;
+  background: 0 0;
+  margin-top: 15px;
+}
+
+.terminos-condiciones .tycLink {
+  color: colores.$celeste;
+  font-family: TelefonicaWeb-Regular;
+  text-align: center;
+  display: block;
+}
+
+.terminos-condiciones .tycLink.darkgray {
+  color: #52545a;
+}
+
+.terminos-condiciones .tycLink:active,
+.terminos-condiciones .tycLink:focus {
+  outline: 0;
+}
+
+.contenidoMain {
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .contenidoMain {
+    padding-top: 90px;
+  }
+}
+
+.contenidoMain .js-loquiero-movil-cerrado {
+  display: none;
+  max-width: 250px;
+}
+
+.contenidoMain .js-loquiero-mobile {
+  display: none;
+  margin: 0 auto;
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .contenidoMain .js-loquiero-mobile {
+    display: block;
+    width: 200px;
+  }
+}
+
+.mainBanner {
+  height: 600px;
+  padding: 60px 25px 70px 60px;
+  background-color: #fff;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .mainBanner {
+    padding: 40px 40px 50px 40px;
+    height: 620px;
+  }
+}
+
+.mainBanner h1 {
+  color: colores.$celeste;
+}
+
+.mainBanner input[type='text'] {
+  color: #50535a;
+}
+
+.mainBanner.black-generic {
+  background-color: #fff;
+}
+
+.mainBanner .mainBanner__topo_desktop {
+  position: absolute;
+  top: 0;
+  left: 43%;
+}
+
+.mainBanner.rmkt .mainBanner__topo_desktop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.mainBanner .mainBanner__topo_mobile {
+  display: table;
+  width: 100%;
+}
+
+.mainBanner .mainBanner__topo_mobile img {
+  display: block;
+  margin: 24px 5px auto auto;
+  float: left;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner .mainBanner__topo_mobile img {
+    float: right;
+  }
+}
+
+.mainBanner .mainBanner__topo_mobile .centerStickers {
+  display: table;
+  margin: 0 auto;
+  width: auto;
+}
+
+.mainBanner .mainBanner__topo_mobile > div > div {
+  display: block;
+  float: left;
+}
+
+.mainBanner.redError span.error {
+  color: #e13739;
+}
+
+.mainBanner.whiteError span.error {
+  color: #e13739;
+}
+
+.mainBanner.redError span.error-horario {
+  color: #e13739;
+}
+
+.mainBanner.whiteError span.error-horario {
+  color: #e13739;
+}
+
+.mainBanner .mainBanner__title {
+  font-size: 50px;
+  margin: 20px 0 30px 0;
+  font-family: TelefonicaWeb-Thin;
+}
+
+@media (max-width: 768px) {
+  .mainBanner .mainBanner__title {
+    font-size: 35px;
+    font-family: TelefonicaWeb-Thin;
+    margin: 0 0 10px 0;
+  }
+}
+
+.mainBanner .mainBanner__title .text-min {
+  font-size: 75%;
+  display: block;
+}
+
+.mainBanner .mainBanner__subTitle {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-family: TelefonicaWeb-Light;
+  color: #86888c;
+}
+
+.mainBanner .mainBanner__subTitle.white-text {
+  color: #fff;
+}
+
+.mainBanner .mainBanner__subTitle.gray-text {
+  color: #50535a;
+}
+
+.mainBanner .mainBanner__subTitle.b-gray-text {
+  color: #50535a;
+  font-family: 'TelefonicaWeb-Regular!important';
+}
+
+.mainBanner .mainBanner__subTitle.blue-text {
+  color: colores.$celeste;
+}
+
+.mainBanner .mainBanner__promocion {
+  font-size: 24px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-family: TelefonicaWeb-Regular;
+  color: #86888c;
+}
+
+.mainBanner .mainBanner__promocion.blue-text {
+  color: colores.$celeste;
+}
+
+.mainBanner label {
+  color: #50535a;
+  font-family: TelefonicaWeb-Thin;
+  margin-left: 65px;
+}
+
+.mainBanner .mainBanner__titleHand {
+  font-family: TelefonicaWeb-Bold;
+  display: inline-block;
+}
+
+.mainBanner .mainBanner__titleHand.titleHandWhite {
+  display: inline;
+}
+
+.mainBanner .mainBanner__titleRegular {
+  font-family: TelefonicaWeb-Regular;
+  display: inline-block;
+}
+
+.mainBanner .mainBanner__titleRegular.titleHandWhite {
+  display: inline;
+}
+
+.mainBanner .mainBanner__titleRegular b {
+  font-family: TelefonicaWeb-Bold;
+}
+
+.mainBanner .formHorizontal {
+  display: table-cell;
+  width: 48%;
+  max-width: 590px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 65px;
+  min-width: 320px;
+}
+
+.mainBanner .formHorizontal .error {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-align: left;
+  width: 80%;
+}
+
+.mainBanner .formHorizontal .error.red {
+  color: #e13739;
+}
+
+.mainBanner .formHorizontal .error-disclaimer {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-align: left;
+  width: 100%;
+}
+
+.mainBanner .formHorizontal .error-disclaimer_white {
+  color: #fff;
+}
+
+.mainBanner .formHorizontal .error-disclaimer.red {
+  color: #e13739;
+}
+
+.mainBanner .formHorizontal.left {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mainBanner .formHorizontal .form-control {
+  text-align: center;
+}
+
+.mainBanner .formHorizontal .form-control.gray {
+  background-color: #eae6e6;
+}
+
+.mainBanner .formHorizontal .form-control-center {
+  display: inline;
+  height: 40px;
+  width: 145px;
+  padding: initial;
+}
+
+.mainBanner .formHorizontal .form-control-center.first {
+  margin-right: 4px;
+}
+
+.mainBanner .formHorizontal .form-control-center.second {
+  border-radius: 0;
+  border-radius: 0;
+}
+
+.mainBanner .formHorizontal .form-control-center.third {
+  margin-left: 4px;
+}
+
+.mainBanner .formHorizontal .form-control-center.form-button {
+  width: 170px;
+}
+
+.mainBanner .mainBanner__textoRosa {
+  color: #ec2766;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.mainBanner .mainBanner__textoBlue {
+  color: colores.$celeste;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.mainBanner .mainBanner__textoAzul {
+  color: colores.$celeste;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.mainBanner .color-remarketing {
+  color: colores.$celeste;
+}
+
+.mainBanner .btn-automatico {
+  width: 300px;
+  display: block;
+  font-family: TelefonicaWeb-Regular;
+}
+
+@media (max-width: 768px) {
+  .mainBanner .btn-automatico {
+    margin: 0 auto;
+    width: 200px;
+  }
+}
+
+.mainBanner_characteristics__leftContainer .planesMovistar__BlackFriday {
+  float: right;
+  width: 94px;
+  position: relative;
+  top: -59px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner_characteristics__leftContainer .planesMovistar__BlackFriday {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar {
+  margin: 0 auto;
+  display: none;
+  height: 151.9vw;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar.oferta-home-week {
+  background: url(../images/hero-background/banner-homeweek-mobile.jpg) no-repeat scroll 0 0 / cover;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar.oferta-home-week {
+    background: url(../images/hero-background/banner-homeweek-desktop.jpg) no-repeat scroll 0 0 /
+      cover;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar.oferta-copa-america {
+  background: url(../images/hero-background/main-banner-copa-america-mobile.png) no-repeat scroll 0
+    0 / cover;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar.oferta-copa-america {
+    background: url(../images/hero-background/main-banner-copa-america-desktop.jpg) no-repeat scroll
+      0 0 / cover;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar h1,
+.bannerCuentaRegresiva__banner-ofertasMovistar p {
+  text-align: center;
+  color: #fff;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar h1 {
+  font-size: 6vw;
+  width: 73%;
+  line-height: 6vw;
+  margin: 10vw auto;
+  font-family: TelefonicaWeb-Regular;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar h1 {
+    font-size: 5vw;
+    width: 73%;
+    line-height: 4vw;
+    margin-top: 5vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar h1 {
+    font-size: 3vw;
+    width: 73%;
+    line-height: 4vw;
+    margin-top: 4vw;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar h1 b,
+.bannerCuentaRegresiva__banner-ofertasMovistar h1 strong {
+  font-family: TelefonicaWeb-Bold;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .flip-clock-wrapper ul {
+  margin: 0.1vw;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .flip-clock-wrapper ul {
+    width: 40px;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-exclusiva-online {
+  position: relative;
+  float: left;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .sticker-container-homeweek {
+  display: block;
+  position: absolute;
+  width: 100%;
+  margin-left: 5%;
+}
+
+@media (max-width: 767px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .sticker-container-homeweek {
+    margin-left: 20%;
+    margin-top: 485px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .sticker-container-homeweek {
+    margin-left: 15%;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto {
+  float: left;
+  position: relative;
+  width: 156px;
+  height: 120px;
+  background-image: url(../images/iconos/Sticker_Recomendado.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .text-container {
+  position: absolute;
+  right: 1rem;
+  top: 4px;
+  font-family: TelefonicaWeb-Bold;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .maximo-descuento {
+  font-size: 5rem;
+  float: left;
+  margin-left: 0.5rem;
+  line-height: 1;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .porcentaje-dto {
+  font-size: 2rem;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .porcentaje-dto-container {
+  display: block;
+  float: left;
+  padding-top: 5%;
+  line-height: 1;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .mensaje {
+  font-size: 1rem;
+  font-family: TelefonicaWeb-regular;
+  display: block;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .promo-descuento-mas-alto .clear-both {
+  clear: both;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .button-sm {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .button-sm {
+    display: block;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra {
+  text-align: center;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .input-group {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .input-group {
+    width: 35%;
+    display: inline-block;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .btn-green-bg {
+  margin: auto;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .formHorizontal .tel_number {
+  width: 68%;
+  font-size: 22px;
+  font-family: TelefonicaWeb-Regular;
+  text-align: center;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .formHorizontal .form-button {
+  width: 32%;
+  padding: 22px 35px;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 22px;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .formHorizontal label {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 14px !important;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-align: left !important;
+  width: 72% !important;
+  color: #f5f5f5;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .formFibra .formHorizontal label.red {
+  color: #e13739;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .white-text {
+  color: #fff;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .btn-default-style {
+  height: 10.5vw;
+  padding: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .btn-default-style {
+    height: 4.5vw;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .btn-default-style.btn-cuentaregresiva {
+  width: 200px !important;
+  padding: 10px !important;
+  display: block;
+  text-align: center;
+  margin: auto;
+  height: 50px;
+  cursor: pointer;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .form-control {
+  height: 10.5vw;
+  padding: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .form-control {
+    height: 4.5vw;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .mainBaner__subTitle {
+  margin-top: 5vw;
+  font-size: 6vw;
+  font-weight: 700;
+  margin-bottom: 0vw;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .mainBaner__subTitle {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .mainBaner__subTitle {
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .mainBanner__subTitleTwo {
+  margin-top: 3vw;
+  font-size: 7vw;
+  font-weight: 700;
+  margin-bottom: 4vw;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .mainBanner__subTitleTwo {
+    font-size: 3vw;
+    margin-top: 0vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .mainBanner__subTitleTwo {
+    font-size: 1.5vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar {
+    height: 58vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar {
+    height: 38vw;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-wrapper {
+  margin: 2em;
+  display: inline-block;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-wrapper {
+    margin: 0;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-dot {
+  left: 9%;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-dot {
+    left: 9%;
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-dot {
+    left: 9%;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado
+  .flip-clock-divider
+  .flip-clock-label {
+  color: #fff;
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-divider {
+  width: 3px !important;
+}
+
+@media (min-width: 450px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar__contenedorCentrado .flip-clock-divider {
+    width: 20px !important;
+  }
+}
+
+.bannerCuentaRegresiva__banner-ofertasMovistar .boton-superior {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 300px;
+  max-width: 340px;
+  top: 5px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 19px 35px !important;
+}
+
+@media (max-width: 768px) {
+  .bannerCuentaRegresiva__banner-ofertasMovistar .boton-superior {
+    width: 28%;
+    margin-top: 0;
+    display: block;
+    padding: 19px 35px;
+    top: 0;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+    min-width: inherit;
+    border-radius: 7px;
+    height: auto;
+  }
+}
+
+.mainBanner.landing-adsl {
+  background: url(../images/index-adsl/banners/fibra-adsl-1mesgratis.jpg) no-repeat;
+  background-position-y: 17px;
+  background-position-x: 700px;
+  background-size: 40%;
+  background-color: colores.$celeste;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl {
+    background: url(../images/index-adsl/banners/fibra-adsl-1mesgratis.jpg) no-repeat;
+    background-size: 65%;
+    background-color: colores.$celeste;
+    background-position-y: bottom;
+    background-position-x: center;
+  }
+}
+
+.mainBanner.landing-adsl .mainBanner-desktop-form {
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .mainBanner-desktop-form {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.mainBanner.landing-adsl .mainBanner_imagesContainer {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+
+.mainBanner.landing-adsl .mainBanner_imagesContainer img {
+  display: block;
+  margin-bottom: 10px;
+  width: 122px;
+}
+
+.mainBanner.landing-adsl .mainBanner__title {
+  font-size: 47px;
+  margin-bottom: 10px;
+  margin: 0;
+  font-family: TelefonicaWeb-Thin;
+  line-height: 48px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .mainBanner__title {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+.mainBanner.landing-adsl .mainBanner__subTitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .mainBanner__subTitle {
+    margin-top: 7px;
+    text-align: center;
+  }
+}
+
+.mainBanner.landing-adsl .btn-default-style {
+  font-weight: 700;
+}
+
+.mainBanner.landing-adsl .bigText {
+  font-size: 45px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .bigText {
+    font-size: 30px;
+  }
+}
+
+.mainBanner.landing-adsl .formFibra {
+  margin-right: 25%;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .formFibra {
+    display: none;
+  }
+}
+
+.mainBanner.landing-adsl .formFibra .formHorizontal .error-disclaimer {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  font-family: TelefonicaWeb-Light;
+  display: block;
+  font-size: 16px !important;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  text-align: left;
+  width: 67% !important;
+}
+
+.mainBanner.landing-adsl .formFibra .formHorizontal .error-disclaimer.red {
+  color: #e13739;
+}
+
+.mainBanner.landing-adsl .boton-superior {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl .boton-superior {
+    width: 140px;
+    margin: 0 auto;
+  }
+}
+
+.btn-default-style.btn-dark-blue-bg {
+  border: 1px solid colores.$azul-oscuro;
+  color: #fff;
+  background-color: colores.$azul-oscuro;
+}
+
+.mainBanner.landing-adsl .formHorizontal .form-control-center {
+  font-size: 22px;
+}
+
+.mainBanner.landing-adsl .formHorizontal .tel_number {
+  width: 65%;
+  padding: initial;
+  margin-left: 65px;
+}
+
+.mainBanner.landing-adsl .formHorizontal .form-button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 32%;
+  padding: 0;
+}
+
+.mainBanner.landing-adsl .form-control {
+  border: 1px solid #ccc;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.planesMovistar {
+  position: relative;
+  text-align: center;
+  width: 100% !important;
+  margin: 0 !important;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  background: #fff;
+}
+
+.planesMovistar .btn-solicitude {
+  margin-bottom: 10px;
+}
+
+.planesMovistar header {
+  padding: 0;
+}
+
+.planesMovistar.gray {
+  background-color: #e9eae8;
+}
+
+.planesMovistar strong {
+  font-family: TelefonicaWeb-Bold;
+  font-weight: 400;
+}
+
+.planesMovistar .planSlider {
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.planesMovistar .planSlider .slick-list.draggable {
+  width: 96%;
+  overflow: hidden;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .planSlider .slick-list.draggable {
+    width: 90%;
+  }
+}
+
+.planesMovistar .sliderContainer {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.planesMovistar .sliderContainer .slick-list.draggable {
+  width: 96%;
+  overflow: hidden;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .sliderContainer .slick-list.draggable {
+    width: 90%;
+  }
+}
+
+.planesMovistar .planesMovistar__imageMPlay {
+  width: 100px;
+  margin: auto;
+}
+
+.planesMovistar .planesMovistar__iconosrss {
+  margin: auto;
+}
+
+.planesMovistar .planesMovistar_anterior {
+  text-decoration: line-through;
+}
+
+.planesMovistar .planesMovistar_BlockCol-ContentDobleOferta {
+  padding-top: 10px;
+}
+
+.planesMovistar .planesMovistar_BlockCol-ContentDobleOferta .col-doble {
+  border: 1px solid colores.$verde;
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.planesMovistar .planesMovistar_BlockCol-ContentDobleOferta .col-doble.highlighted {
+  border: 1px solid colores.$celeste;
+}
+
+.planesMovistar .planesMovistar_BlockCol-ContentDobleOferta .col-doble.left {
+  border-width: 0 1px 0 0;
+}
+
+.planesMovistar .planesMovistar_BlockCol-ContentDobleOferta .col-doble.right {
+  border-width: 0;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content {
+  padding: 20px 25px;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .planesMovister_incluye-descuento {
+  margin-top: -12px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .planesMovister_incluye-descuento__verde {
+  color: colores.$verde;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .planesMovister_incluye-descuento__azul {
+  color: colores.$celeste;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .planesMovistar__paragraph.float-left {
+  float: left;
+  margin-left: 80px;
+  margin-right: -70px;
+  padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .planesMovistar_BlockCol-Content .planesMovistar__paragraph.float-left {
+    margin-left: 110px;
+  }
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .row {
+  height: 114.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planesMovistar .planesMovistar_price {
+  color: colores.$verde;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.planesMovistar .planesMovistar__priceTarifa {
+  font-family: TelefonicaWeb-Regular;
+  font-size: 40px;
+  color: colores.$celeste;
+  margin-bottom: 0;
+}
+
+.planesMovistar .planesMovistar__priceTarifa .texto-mes-pequeno {
+  font-size: 25px;
+}
+
+.planesMovistar .planesMovistar__priceTarifa.highlighted {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.planesMovistar .planesMovistar__priceTarifa.__dobleDescuento {
+  font-size: 22px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaHogar {
+  font-family: TelefonicaWeb-Regular;
+  font-size: 30px;
+  color: colores.$celeste;
+  margin-bottom: 0;
+}
+
+.planesMovistar .planesMovistar__priceTarifaHogar .texto-mes-pequeno {
+  font-size: 25px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaHogar.highlighted {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaHogar.__dobleDescuento {
+  font-size: 22px;
+}
+
+.planesMovistar .planesMovistar__botonDisclaimer {
+  cursor: pointer;
+  font-family: TelefonicaWeb-Bold;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior--c {
+  font-family: TelefonicaWeb-Light;
+  color: #50535a;
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior--c .tachado {
+  text-decoration: line-through;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior--b {
+  font-family: TelefonicaWeb-Light;
+  color: #50535a;
+  font-size: 25px;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior--b .tachado {
+  text-decoration: line-through;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior {
+  font-family: TelefonicaWeb-Regular;
+  color: #50535a;
+  font-size: 22px;
+  text-decoration: line-through;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior.highlighted {
+  color: colores.$celeste;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.planesMovistar .planesMovistar__duracion {
+  color: colores.$celeste;
+  font-size: 20px;
+  font-family: TelefonicaWeb-Bold;
+  margin: 0;
+  padding-top: 0;
+}
+
+.planesMovistar .planesMovistar__antes {
+  font-size: 22px;
+  margin: 10px 0 10px 0;
+  font-family: TelefonicaWeb-Regular;
+  color: #86888c;
+}
+
+.planesMovistar .planesMovistar__antes .text-tachado {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.planesMovistar .planesMovistar__amazonPrime {
+  line-height: 3;
+}
+
+.planesMovistar .planesMovistar_extra {
+  color: colores.$verde;
+}
+
+.planesMovistar .planesMovistar_extra.blue {
+  color: colores.$celeste;
+}
+
+.planesMovistar .planesMovistar_extra img {
+  width: 90px;
+  display: inline;
+}
+
+.planesMovistar .planesMovistar__title {
+  color: #50535a;
+  font-family: TelefonicaWeb-Thin;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 42px;
+  margin-top: 0;
+}
+
+.planesMovistar .planesMovistar__title .__prefaLinkPlan {
+  font-family: TelefonicaWeb-Bold;
+  color: #e8416c;
+  font-size: 65%;
+}
+
+.planesMovistar .planesMovistar__title.title-blue {
+  color: colores.$celeste;
+}
+
+.planesMovistar .planesMovistar__title.title-white {
+  color: #fff;
+}
+
+.planesMovistar .planesMovistar__title .hand {
+  font-family: TelefonicaWeb-Hand;
+}
+
+.planesMovistar .planesMovistar__title.more__margin {
+  margin-bottom: 75px;
+}
+
+.planesMovistar .planesMovistar__title.no-margin {
+  margin: 0;
+}
+
+.planesMovistar .planesMovistar__title b,
+.planesMovistar .planesMovistar__title strong {
+  font-family: TelefonicaWeb-Bold;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .planesMovistar__title {
+    font-size: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .planesMovistar .planesMovistar__title br {
+    display: none;
+  }
+}
+
+.planesMovistar .planesMovistar__boton {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 20px;
+}
+
+.planesMovistar .planesMovistar_header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: colores.$verde;
+  color: #fff;
+  width: 100%;
+  height: 110px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.planesMovistar .planesMovistar_header__green {
+  background: colores.$verde;
+}
+
+.planesMovistar .planesMovistar_header__blue {
+  background: colores.$celeste;
+}
+
+.planesMovistar .planesMovistar_header .planesMovistar__BlackFriday {
+  position: absolute;
+  width: 82px;
+  left: 271px;
+  top: -5px;
+}
+
+.planesMovistar .planesMovistar_header.highlighted {
+  background: colores.$celeste;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.planesMovistar .planesMovistar_header .textoPromoHeader {
+  margin-bottom: 0;
+}
+
+.planesMovistar .planesMovistar_header .tiempoPromoHeader {
+  margin-top: 0;
+}
+
+.planesMovistar .planesMovistar__flag-listItem {
+  display: inline-block;
+}
+
+.planesMovistar .planesMovistar_texto-destacado {
+  font-size: 8vw;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .planesMovistar .planesMovistar_texto-destacado {
+    font-size: 2vw;
+  }
+}
+
+.planesMovistar .planesMovistar_texto-destacado.__prepago {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.planesMovistar .planesMovistar_nombre-plan {
+  font-size: 8vw;
+}
+
+@media (min-width: 768px) {
+  .planesMovistar .planesMovistar_nombre-plan {
+    font-size: 2.5vw;
+  }
+}
+
+.planesMovistar .planesMovistar__BlockCol {
+  transition: transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  -ms-transition: -ms-transform 0.4s;
+  width: auto;
+  padding: 0 7.5px;
+  position: relative;
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  outline: 0;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .planesMovistar__BlockCol {
+    width: 100%;
+  }
+}
+
+.planesMovistar .planesMovistar__BlockCol.one__BlockCol {
+  width: 35%;
+  margin: auto;
+  float: none;
+}
+
+@media (max-width: 800px) {
+  .planesMovistar .planesMovistar__BlockCol.one__BlockCol {
+    width: 100%;
+  }
+}
+
+.planesMovistar .planesMovistar__BlockCol.two__BlockCol {
+  width: 33%;
+  margin: auto;
+  display: inline-block;
+  float: none;
+}
+
+@media (max-width: 800px) {
+  .planesMovistar .planesMovistar__BlockCol.two__BlockCol {
+    width: 100%;
+  }
+}
+
+.planesMovistar .planesMovistar__BlockCol .planesMovistar__Cyber {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  top: 5px;
+  z-index: 100;
+}
+
+.planesMovistar .planesMovistar__blocks {
+  text-align: center;
+}
+
+.planesMovistar .planesMovistar__bigBlock {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 30px;
+  box-shadow: 0 2px 6px 0 rgba(114, 114, 114, 0.22);
+  -webkit-box-shadow: 0 2px 6px 0 rgba(114, 114, 114, 0.22);
+  -moz-box-shadow: 0 2px 6px 0 rgba(114, 114, 114, 0.22);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 380px;
+  margin: 0 auto 30px;
+}
+
+.planesMovistar .planesMovistar__bigBlock .js-beneficio-extra,
+.planesMovistar .planesMovistar__bigBlock .js-capacidad-navegación-extra,
+.planesMovistar .planesMovistar__bigBlock .js-extra-mensajea,
+.planesMovistar .planesMovistar__bigBlock .js-extra-whatsapp,
+.planesMovistar .planesMovistar__bigBlock .js-minutos-compania,
+.planesMovistar .planesMovistar__bigBlock .js-minutos-operador,
+.planesMovistar .planesMovistar__bigBlock .js-planes-familia-movistar,
+.planesMovistar .planesMovistar__bigBlock .js-roaming-gratis-mundial {
+  display: none;
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-alto {
+  height: auto;
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-alto .planesMovistar_header {
+  background-color: colores.$verde;
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-alto .planesMovistar_header__green {
+  background-color: colores.$verde;
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-alto .planesMovistar_header__blue {
+  background-color: colores.$celeste;
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-bajo {
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .planesMovistar .planesMovistar__bigBlock {
+    max-width: inherit;
+  }
+
+  .planesMovistar .planesMovistar__bigBlock__destacado-bajo {
+    margin-top: 0;
+  }
+}
+
+.planesMovistar .planesMovistar__bigBlock__destacado-bajo .planesMovistar_BlockCol-Content .row {
+  height: 92px;
+}
+
+.planesMovistar .planesMovistar__bigBlock.highlighted {
+  border: 3px solid colores.$celeste;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.planesMovistar .planesMovistar__headerTitle {
+  font-size: 8vw;
+  font-family: TelefonicaWeb-Regular;
+  color: #fff;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .planesMovistar .planesMovistar__headerTitle {
+    font-size: 2vw;
+  }
+}
+
+.planesMovistar .planesMovistar__headerTitle b {
+  font-size: 35px;
+  font-family: TelefonicaWeb-Light;
+}
+
+.planesMovistar .planesMovistar__precio-tachado {
+  text-decoration: line-through;
+  margin-bottom: 0;
+  font-family: TelefonicaWeb-Light;
+  font-size: 18px;
+  visibility: hidden;
+}
+
+.planesMovistar__paragraph {
+  height: 70px;
+  display: table;
+  width: 100%;
+  text-align: left;
+  padding-left: 40%;
+}
+
+.planesMovistar__paragraph span {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 400;
+  text-align: center;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.main-adsl .planesMovistar__headerTitle {
+  margin: 10px 0;
+}
+
+.main-adsl .planesMovistar__headerTitle b {
+  font-size: 35px;
+}
+
+.main-adsl .planesMovistar .planesMovistar__bigBlock {
+  padding-bottom: 0;
+}
+
+.main-adsl .planesMovistar__title {
+  font-family: TelefonicaWeb-Light;
+}
+
+.main-adsl .planesMovistar_price {
+  font-size: 39px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.main-adsl .js-ver-disponibilidad {
+  font-weight: 700;
+}
+
+.main-adsl .planesMovistar__paragraph {
+  padding: 10px;
+}
+
+.main-adsl .planesMovistar__paragraph:not(:last-child) {
+  border-bottom: 0 solid #50535a;
+}
+
+/* stylos personalizados * pablo */
+
+.planesMovistar .planesMovistar__duracion {
+  color: #50535a;
+}
+
+.font77 {
+  font-size: 60px !important;
+  line-height: 24px;
+}
+
+.font43 {
+  font-size: 43px !important;
+  line-height: 45px;
+}
+
+.marginNormal {
+  margin: 10px 0px !important;
+}
+
+/*arrows */
+i {
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.max150 {
+  max-width: 180px;
+}
+
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+.espaciado {
+  margin: 20px 0px;
+}
+
+.check {
+  display: inline-block;
+  float: left;
+  margin-top: 8%;
+  width: 25px;
+}
+
+.maxwidth20 {
+  max-width: 20px !important;
+}
+
+.inlineBlock {
+  display: inline-block !important;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content {
+  padding: 20px 10px;
+}
+
+.checkRare {
+  padding: 0px !important;
+}
+
+.planesMovistar .planesMovistar_BlockCol-Content .row {
+  height: auto !important;
+}
+
+.padLeft0 {
+  padding-left: 0px !important;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.padd0 {
+  padding: 0px !important;
+}
+
+.text45 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.fondoRosa {
+  background-color: colores.$magenta !important;
+}
+
+.paddLeft0 {
+  padding-left: 0px !important;
+}
+
+.paddRight0 {
+  padding-right: 0px !important;
+}
+
+.marginTitle {
+  max-width: 1000px !important;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+.relleno {
+  padding: 30px !important;
+  height: auto !important;
+}
+
+.mainBanner {
+  padding: 20px 25px 70px 60px !important;
+}
+
+.destacadoBanner {
+  width: 162px;
+}
+
+.redondo {
+  border-radius: 30px !important;
+}
+
+.planesMovistar .planesMovistar__bigBlock {
+  padding-bottom: 0px !important;
+}
+
+.text28 {
+  font-size: 28px !important;
+  line-height: 28px !important;
+}
+
+.weight300 {
+  font-weight: 300 !important;
+}
+
+.btn-plano {
+  height: 38px !important;
+  line-height: 0px !important;
+  font-size: 14px;
+}
+
+.btn-planoMob {
+  height: 45px !important;
+  line-height: 0px !important;
+  font-size: 20px !important;
+}
+
+.space3 {
+  letter-spacing: 5px !important;
+}
+
+.mt35Mob {
+  margin-top: 35px !important;
+}
+
+.paddTOPBOTT10 {
+  padding: 10px 0px !important;
+}
+
+.text24 {
+  font-size: 24px !important;
+  line-height: 24px !important;
+}
+
+.paddTop0 {
+  padding-top: 0px !important;
+}
+
+.text20 {
+  font-size: 20px !important;
+  line-height: 20px !important;
+}
+
+.text16 {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+
+.text18 {
+  font-size: 18px !important;
+  line-height: 20px !important;
+}
+
+.text32 {
+  font-size: 32px !important;
+  line-height: 32px;
+}
+
+.redondoBajo {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.redondoTop {
+  border-radius: 20px 20px 0px 0px !important;
+}
+
+.redondoTop10 {
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.mainBanner .formHorizontal .form-control-center {
+  height: 40px !important;
+}
+
+.mainBanner .formHorizontal {
+  height: 40px !important;
+}
+
+.mainBanner .formHorizontal .form-control-center.form-button {
+  line-height: 0;
+}
+
+.mainBanner .formHorizontal .error-disclaimer {
+  top: 70px !important;
+  width: 60% !important;
+}
+
+.absoluteButton {
+  position: absolute;
+  right: 30px;
+  border-radius: 30px !important;
+  z-index: 900;
+  width: 130px !important;
+  font-size: 16px !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.fondoGris1 {
+  background-color: #f5f5f5 !important;
+}
+
+.bonete {
+  color: #fff;
+  padding: 5px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.noRound {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.noPaddTop {
+  padding-top: 14px !important;
+  padding-bottom: 40px !important;
+}
+
+.noPaddTop1 {
+  padding-top: 20px !important;
+  padding-bottom: 36px !important;
+}
+
+.planesMovistar .planesMovistar__priceTarifaAnterior--b {
+  margin-top: 5px !important;
+  font-size: 22px !important;
+}
+
+.fondoAzulOscuro {
+  background: colores.$azul-oscuro !important;
+}
+
+.fondoAzul {
+  background: colores.$celeste !important;
+}
+
+.fondoAzulMedio {
+  background: #0379bb !important;
+}
+
+.iconitoMas {
+  background: url('../images/iconos/2020/TA-2009-Icono-Mas-detalle.png');
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-size: contain;
+  position: absolute;
+  top: 47%;
+  right: 30%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+%btn-plano {
+  height: 38px !important;
+  line-height: 0px !important;
+  font-size: 14px;
+}
+
+.btn-default-new {
+  @extend %btn-plano;
+  max-width: 200px;
+}
+
+.container80 {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.container808 {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.container60 {
+  width: 60% !important;
+}
+
+.iconitoMas.expanded {
+  background: url('../images/iconos/2020/TA-2010-Icono-Menos-detalle.png');
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-size: contain;
+  position: absolute;
+  top: 47%;
+  right: 26%;
+}
+
+.opacity05 {
+  opacity: 0.5;
+}
+
+.relative {
+  position: relative;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+.btn-default-style:hover {
+  border: 1px solid transparent !important;
+}
+
+.planesMovistar .planesMovistar__descuento {
+  color: colores.$magenta;
+  font-family: 'TelefonicaWeb-Bold';
+  margin: 0;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.weightNormal {
+  font-weight: normal !important;
+}
+
+.text-left1 {
+  text-align: left !important;
+}
+
+.text41 {
+  font-size: 41px;
+  line-height: 41px;
+}
+
+.mt20Desk {
+  margin-top: 20px !important;
+}
+
+.mt20 {
+  margin-top: 4% !important;
+}
+
+.btn-mob {
+  max-width: 180px;
+}
+
+.text14 {
+  font-size: 14px !important;
+  line-height: 14px !important;
+}
+
+.d-none {
+  display: none;
+}
+
+.roundLeft {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.roundRight {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.mb10 {
+  margin-bottom: 15px !important;
+}
+
+@media (min-width: 1500px) {
+  .containWide {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 993px) {
+}
+
+@media (max-width: 768px) {
+  .btn-default-style.btn-blue-bg {
+    max-width: 175px;
+  }
+
+  #modalDisponibilidadPlanFibra50MB .btn-default-style.btn-blue-bg,
+  #modalDisponibilidad .btn-default-style.btn-blue-bg {
+    max-width: none;
+  }
+
+  .mt25Mob {
+    margin-top: 25%;
+  }
+
+  .mt15Mob {
+    margin-top: 15%;
+  }
+
+  .orangeBox {
+    float: right;
+  }
+
+  .container80 {
+    width: 100% !important;
+  }
+
+  .paddLeft0Mob {
+    padding-left: 0px !important;
+  }
+
+  .paddRight0Mob {
+    padding-right: 0px !important;
+  }
+
+  .text-leftMob {
+    text-align: left !important;
+  }
+
+  .mt20Desk {
+    margin-top: inherit !important;
+  }
+
+  .planesMovistar .planesMovistar__priceTarifaAnterior--b {
+    text-align: right;
+  }
+
+  .iconitoMas {
+    right: 110px;
+    top: 68%;
+  }
+
+  .iconitoMas.expanded {
+    right: 100px;
+    top: 68%;
+  }
+
+  .text-left1 {
+    text-align: center !important;
+  }
+
+  .text16 {
+    font-size: 20px !important;
+  }
+
+  .espaciadoMobile {
+    margin: 5% 0px !important;
+  }
+}
+
+.text40 {
+  font-size: 40px !important;
+  line-height: 40px !important;
+}
+
+.text70 {
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.width60 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.iconitoAmazonPro {
+  width: 55px;
+}
+
+.iconitoStandar {
+  width: 32px;
+}
+
+.planesMovistar__paragraph {
+  font-family: TelefonicaWeb-Regular;
+  padding: 0;
+  text-align: center;
+}
+
+.planesMovistar__paragraph {
+  height: auto;
+  display: table;
+  width: 100%;
+  text-align: left;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+.planesMovistar__paragraph span {
+  display: block;
+  vertical-align: middle;
+  font-family: TelefonicaWeb-Light;
+  font-weight: 400;
+  text-align: inherit;
+  line-height: normal;
+  font-size: 14px;
+}
+
+.paddBottom0 {
+  padding-bottom: 0px !important;
+}
+
+.quedateEn {
+  width: 206px;
+}
+
+.planesMovistar .planesMovistar__boton {
+  padding-bottom: 0px !important;
+}
+
+.fibra-hogar .cuc-amazon-tv {
+  margin-top: 0px;
+}
+
+.fibra-hogar .cuc-desc-zona-sup-amazon-tv {
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.fibra-hogar .cuc-desc-zona-inf-amazon-tv {
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.width200 {
+  width: 200px;
+  border-radius: 10px !important;
+}
+
+.width100 {
+  width: 100% !important;
+}
+
+.mainBanner .formHorizontal .error-disclaimer {
+  width: 80% !important;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .iconitoAmazonPro {
+    width: 70px;
+  }
+
+  .quedateEn {
+    width: 280px;
+  }
+
+  .mainBanner.fibra-hogar.fibra-hogar-tv {
+    background-position-y: 305px;
+  }
+
+  .mainBanner .formHorizontal .error-disclaimer {
+    width: 100% !important;
+  }
+
+  .txt-bajada-fibra {
+    font-weight: normal;
+  }
+
+  .width60 {
+    width: 80%;
+  }
+
+  .mainBanner.fibra-hogar {
+    background: url(../images/index-fibra/banners/fibra-adsl-1mesgratis.jpg) no-repeat;
+    background-size: 73%;
+    background-color: colores.$celeste;
+    background-position-y: bottom;
+    background-position-x: center;
+    height: 720px;
+    padding: 30px !important;
+  }
+
+  .quedateEn {
+    width: 280px;
+  }
+
+  .mainBanner .formHorizontal .form-control-center {
+    width: 250px;
+  }
+
+  .iconitoMas {
+    top: 19%;
+    right: 35%;
+  }
+
+  .iconitoMas.expanded {
+    top: 30%;
+    right: 35%;
+  }
+
+  .mainBanner.fibra-hogar .formFibra {
+    display: block !important;
+  }
+
+  .fibra-hogar-tv .absoluteButton {
+    right: -30px !important;
+  }
+}
+
+.planesMovistar .planSlider {
+  max-width: 900px;
+}
+
+/*adsl */
+
+.mainBanner.landing-adsl {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .mainBanner.landing-adsl {
+    height: 560px;
+    padding-left: 25px !important;
+  }
+
+  .mainBanner.landing-adsl .formHorizontal .tel_number,
+  .mainBanner label {
+    margin-left: 0px;
+  }
+}
+
+@supports (-webkit-text-stroke: 1px #fff) {
+  .txt-bordeado {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+  }
+}
+
+@supports not (-webkit-text-stroke: 1px #fff) {
+  .txt-bordeado {
+    color: #009bf5;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+}
+
+.title-fibra {
+  font-size: 16px;
+  background-color: colores.$magenta;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.iconitoAmazon {
+  width: 45px;
+}
+
+.iconitoFibra {
+  width: 20px;
+}
+
+.iconitoStandar2,
+.iconitoStandar4 {
+  width: 45px;
+}
+
+.iconitoAmazon1 {
+  width: 90px;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.iconitoFibra1 {
+  width: 18px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.txt-pack-hbo-fox {
+  font-size: 14px;
+}
+
+.planes-pack-hbo-fox-container {
+  margin: 10px 0;
+}
+
+.txt-pack-futbol-planes {
+  margin: 0;
+}
+
+.planes-pack-tv-container {
+  display: flex;
+  margin: 5px 0;
+}
+
+.column-planes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding205 {
+  padding: 20px 5px;
+}
+
+.padding-fullprice {
+  padding: 25px 20px 30px;
+}
+
+.txt-deb-autom-plan {
+  font-size: 14px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+div.modal-backdrop {
+  z-index: 1040 !important;
+}
+
+
+/*# sourceMappingURL=styles-adsl.min.css.map */

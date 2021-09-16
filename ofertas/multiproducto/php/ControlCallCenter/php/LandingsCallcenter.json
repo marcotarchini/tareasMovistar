@@ -1,0 +1,492 @@
+{
+			"lps" :
+				[
+				
+				{ 
+					"codigo" : "lp_01-home", 
+					"url" : "1", 
+					"tab" : "1", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_01-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto/", 
+					"tab" : "1", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_01-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto/", 
+					"tab" : "1", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_01-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto/", 
+					"tab" : "1", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_02-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_02-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_02-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_02-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_03-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_03-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-b/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_03-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-b/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_03-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-b/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_04-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_04-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto-b/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_04-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto-b/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_04-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/r-multiproducto-b/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_54-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_54-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multiproducto/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_54-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multiproducto/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_54-equipos-liberados", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multiproducto/", 
+					"tab" : "1", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_05-portabilidad", 
+					"url" : "1", 
+					"tab" : "portabilidad", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_05-linea-nueva", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multioferta-movil/", 
+					"tab" : "1", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_05-cambio-de-plan", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multioferta-movil/", 
+					"tab" : "1", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_06-portabilidad", 
+					"url" : "1", 
+					"tab" : "portabilidad", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_06-linea-nueva", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multioferta-movil-b/", 
+					"tab" : "linea-nueva", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_06-cambio-de-plan", 
+					"url" : "https://ofertas.movistar.com.ar/movil/multioferta-movil-b/", 
+					"tab" : "linea-nueva", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_07-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_07-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/hogar/multioferta-hogar/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_08-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_08-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/hogar/r-multioferta-hogar/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_09-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_09-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/hogar/multioferta-hogar-b/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_10-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_10-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/hogar/ofertas-hogar/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_11-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_12-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_13-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_14-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_15-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_16-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_17-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_18-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_19-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_20-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_21-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_22-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_23-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_24-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_25-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_26-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_27-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_28-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_29-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_30-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_55-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_56-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_57-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_58-portabilidad", 
+					"url" : "1", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_58-linea-nueva", 
+					"url" : "https://ofertas.movistar.com.ar/movil/r-multioferta-movil/", 
+					"tab" : "linea-nueva", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_58-cambio-de-plan", 
+					"url" : "https://ofertas.movistar.com.ar/movil/r-multioferta-movil/", 
+					"tab" : "cambio-de-plan", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_100-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_101-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_200-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_201-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_203", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_204-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_204-internet-hogar", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-c/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_204-planes-sin-equipo", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-c/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_204-portabilidad", 
+					"url" : "https://ofertas.movistar.com.ar/ofertas/multiproducto-c/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_205-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_206-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_207-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_208-home", 
+					"url" : "https://ofertas.movistar.com.ar/movil/portabilidad-c/", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_209-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_210-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_211-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "GSS"
+				},
+				{ 
+					"codigo" : "lp_212-home", 
+					"url" : "1", 
+					"tab" : "home", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_212-internet-hogar", 
+					"url" : "https://movistarpromos.com.ar/ofertas/multiproducto/", 
+					"tab" : "internet-hogar", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_212-planes-sin-equipo", 
+					"url" : "https://movistarpromos.com.ar/ofertas/multiproducto/", 
+					"tab" : "planes-sin-equipo", 
+					"callCenter" : "Konecta"
+				},
+				{ 
+					"codigo" : "lp_212-portabilidad", 
+					"url" : "https://movistarpromos.com.ar/ofertas/multiproducto/", 
+					"tab" : "portabilidad", 
+					"callCenter" : "Konecta"
+				},
+				{
+					"codigo": "lp_20-gdn",
+					"url": "https://ofertas.movistar.com.ar/movil/portabilidad-rrss-gdn/",
+					"tab": "home",
+					"callCenter": "GSS"
+				}
+			]
+		}
